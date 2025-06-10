@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<!-- Define que el documento es HTML5 -->
+
+<html lang="es"> 
+<!-- Idioma del documento: español -->
+<head> 
+    <meta charset="UTF-8">
+    <!-- Codificación de caracteres para admitir símbolos especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Hace que la página sea responsive (adaptable a dispositivos móviles) -->
+    <title>My Personal Portfolio</title> 
+    <meta name="description" content="Personal portfolio of Abrahan as a Riwi developer."> 
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class = menu>
+    <div class="title">
+    <h1 >Abrahan Taborda- Riwi Developer</h1> 
+    </div>
+    <!-- Encabezado principal del sitio -->
+    <nav> 
+        <!-- Barra de navegación con enlaces a secciones internas -->
+        <a href="index.html">About Me</a> 
+        <a href="projects.html">Projects</a>
+        <a href="contacto.html">Contact</a>
+    </nav>
+    </section>
+    <section id="contact">
+        <!-- Sección de contacto con formulario -->
+        <h2>Contact Me</h2> 
+        <form action="/send" method="post"> 
+            <label for="name">Name: </label> 
+            <input type="text"  name="name" required> 
+
+            <label for="email">Email:</label> 
+            <input type="email" name="email" required> 
+
+            <label for="message">Message: </label> 
+            <textarea  name="message" rows="4" required></textarea> 
+
+            <input type="submit" value="Send"> 
+        </form>
+    </section>
+        <footer class="footer-container">
+        <div class="footer-top">
+            <div class="footer-top-section">
+                <h3>About Me</h3>
+                <p>Abrahan Taborda- Riwi Developer<br>NIT: 890.900.943-1</p>
+            </div>
+            <div class="footer-top-section">
+                <h3>Email</h3>
+                <p><a href="abrahan.1194@gmail.com">abrahan.1194@gmail.com</a></p>
+            </div>
+            <div class="footer-top-section">
+                <h3>Phone</h3>
+                <p>Cel:(57) 314-840-04-66</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-links">
+                <span>Síguenos en:</span>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                    <i class="fa-solid fa-square-xmark"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
