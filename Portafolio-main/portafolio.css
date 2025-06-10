@@ -517,9 +517,8 @@ form input[type="submit"]:hover {
     }
 }
 
-/* Pantallas grandes (ej. escritorios, 1025px en adelante) */
+/* Pantallas grandes(1025px en adelante) */
 @media (min-width: 1025px) {
-    /* No se necesitan muchos ajustes aquí, ya que los estilos base están pensados para escritorios */
 }
 
 @keyframes fade {
