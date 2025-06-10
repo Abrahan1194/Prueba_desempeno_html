@@ -517,9 +517,6 @@ form input[type="submit"]:hover {
     }
 }
 
-/* Pantallas grandes(1025px en adelante) */
-@media (min-width: 1025px) {
-}
 
 @keyframes fade {
     0% {
